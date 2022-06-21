@@ -1,18 +1,89 @@
-.header {
-    width: #1600px;
-    height: #80px;
+body{
+    font-family: 'Roboto', sans-serif;
 }
-
-.studio {
+.studio{
     width: 500;
-    size: 14px;
-    line-height: 1.17;
+    font-size: 14px;
+    line-height: 1.17px;
     letter-spacing: 2%;
 }
 
-.menu {
-    width: 500;
-    size: 14px;
-    line-height: 1.17;
+.title{
+    color: white;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3px;
+    letter-spacing: 6%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8px;
+    letter-spacing: 6%;
+    padding: 10px 40px;
+    color: white;
+    background-color: #2196F3;
+    border: 0px solid ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: 4px 0px 4px rgba(99, 98, 98, 0.744);
+}
+.button:active{
+    background-color: royalblue;
+}
+.menu-link{
+    color: #212121;
+}
+.menu-link:hover{
+    color: #2196F3;
+}
+.contacts{
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17px;
     letter-spacing: 2%;
 }
+.contacts:hover{
+    color: #2196F3;;
+}
+.subtitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17px;
+    letter-spacing: 3%;
+}
+.advantage{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17px;
+    letter-spacing: 3%;
+}
+.advantage-link{
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 3%;
+}
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17px;
+    letter-spacing: 3%;
+}
+.info{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17px;
+    letter-spacing: 0.03em;
+}
+.section1{
+    background-color: #2F303A;
+}
+
