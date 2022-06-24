@@ -1,8 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+address {
+    font-style: normal;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* menu */
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.submenu-link {
+    display: inline-block;
+    margin-right: 50px;
+
+}
 
 .menu-link {
     color: #212121;
@@ -10,6 +42,7 @@ body {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
+    padding: 6px 10px;
 }
 
 .menu-link-p {
@@ -18,6 +51,8 @@ body {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
+    margin: 5px 10px;
+    padding: 6px 10px;
 }
 
 .contacts {
@@ -29,7 +64,7 @@ body {
 }
 
 .city {
-    color: #fff;
+    color: #ffffff;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
@@ -50,6 +85,8 @@ body {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
+    max-width: 696px;
+    margin: 0 auto 200px;
 }
 
 .button {
@@ -60,7 +97,7 @@ body {
     padding: 10px 40px;
     color: white;
     background-color: #2196F3;
-    border: 0px solid ;
+    border: 1px solid transparent;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -106,6 +143,10 @@ body {
     color: #2196F3;
 }
 
+.city:hover {
+    color: #2196F3;
+}
+
 .menu-link:hover {
     color: #2196F3;
 }
@@ -132,7 +173,7 @@ body {
     letter-spacing: 0.03em;
     padding: 6px 22px;
     background-color: #F5F4FA;
-    border: 0px solid;
+    border: 1px solid transparent;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -155,13 +196,9 @@ body {
 /* pr.other */
 
 .way:hover {
-    box-shadow: 4px 0px 4px rgba(77, 193, 225, 0.744);
-}
-
-.way:focus {
-    background-color: #2196F3;
+    box-shadow: 4px 0px 4px rgba(16, 186, 233, 0.744);
 }
 
 .way:active {
-    background-color: rgb(155, 222, 246);
+    background-color:#2196F3
 }
