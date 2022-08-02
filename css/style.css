@@ -39,6 +39,7 @@ body {
 
 address {
     font-style: normal;
+    margin-top: 20px;
 }
 
 ul, ol {
@@ -60,8 +61,6 @@ ul, ol {
 .sky {
     display: flex;
     align-items: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
 }
 
 .hat {
@@ -91,10 +90,13 @@ ul, ol {
 .headmenu {
     display: flex;
     margin-left: 93px;
+    gap: 50px;
 }
 
 .submenu-link {
     display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .menu-link {
@@ -103,9 +105,7 @@ ul, ol {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-left: 50px;
+    display: block;
 }
 
 .menu-link-p {
@@ -114,9 +114,7 @@ ul, ol {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-left: 50px;
+    display: block;
 }
 
 .cap {
@@ -131,6 +129,7 @@ ul, ol {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contact-icon {
@@ -140,7 +139,7 @@ ul, ol {
 
 /* main */
 
-.section-I {
+.section-hero {
     background-color: #2F303A;
     padding: 200px 0;
     text-align: center;
@@ -152,23 +151,25 @@ ul, ol {
     background-position: center;
 }
 
-.section-II {
+.section-benefits {
     display: flex;
+    padding-bottom: 0;
 }
 
-.section-III {
+.section-work {
     display: flex;
     padding-top: 0;
 }
 
-.section-IIII {
+.section-team {
     background-color: #F5F4FA;
 }
+
+.section-client {}
 
 .sections {
     padding-top: 94px;
     padding-bottom: 94px;
-    background-size: cover
 }
 
 .title {
@@ -340,7 +341,6 @@ ul, ol {
 
 .foot-link-con-l {
     margin-bottom: 9px;
-    padding-top: 20px;
 }
 
 .foot-link-con-ll {
@@ -392,6 +392,10 @@ ul, ol {
     gap: 8px;
 }
 
+.img-link {
+    text-decoration: none;
+}
+
 .way {
     color: #212121;
     font-family: Roboto;
@@ -424,8 +428,7 @@ ul, ol {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
-    margin-left: 24px;
+    color: #212121;
 }
 
 .description {
@@ -434,11 +437,10 @@ ul, ol {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
-    margin-top: 4px;
-    margin-left: 24px;
+    color: #757575;
 }
 
-.port-galery {
+.port-galery { 
     display: flex;
     flex-wrap: wrap; 
     gap: 30px;
@@ -450,6 +452,9 @@ ul, ol {
    border-bottom: 1px solid #EEEEEE;
    border-right: 1px solid #EEEEEE;
    display: block;
+   padding-top: 20px;
+   padding-left: 24px;
+   padding-bottom: 20px;
 }
 
 /* pr.other */
