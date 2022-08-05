@@ -124,6 +124,8 @@ ul, ol {
 }
 
 .contacts {
+    display: flex;
+    align-items: center;
     color: #757575;
     font-weight: 500;
     font-size: 14px;
@@ -241,6 +243,58 @@ ul, ol {
     justify-content: center;
 }
 
+.clients-list {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.clients-item .clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-list .clients-icon {
+    fill: #AFB1B8;
+}
+
+.clients-item .clients-link:hover,
+.clients-item .clients-link:focus {
+    border: 1px solid #2196F3;
+    color: #2196F3;
+}
+
+.clients-item .clients-icon {
+    fill: currentColor;
+}
+
+.clients-item .clients-link {
+    color: #AFB1B8;
+}
+
+.icon-explanation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+}
+
 .advantage {
     font-weight: 700;
     font-size: 14px;
@@ -287,10 +341,64 @@ ul, ol {
     margin-bottom: 30px;
 }
 
+.team-box .team-list {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.team-box .team-link {
+    width: 44px;
+    padding: 12px;
+    height: 44px;
+    border-radius: 50%;
+    background-position: center;
+    cursor: pointer;
+    color: #AFB1B8;
+}
+
+.team-box .team-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.team-link:hover {
+    background-color: #2196F3;
+}
+
+.container-dsp {
+    display: flex;
+}
+
 .flat-link {
     list-style: none;
     display: flex;
     gap: 30px;
+    position: relative;
+    margin-bottom: 94px;
+}
+
+.signature-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(47, 48, 58, 0.8);;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+}
+
+.signature {
+    font-weight: 700;
+    font-size: 14px;
+    width: 205px;
+    height: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #ffffff;
 }
 
 
@@ -347,7 +455,52 @@ ul, ol {
     margin-bottom: 9px;
 }
 
+.join {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.icon-footer {
+    margin-left: 70px;
+}
+
+
+.icon-footer .foot-icon-link {
+    width: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 44px;
+    padding: 12px;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.foot-icon-link:hover {
+    background-color:#2196F3;
+}
+
+.foot-icon {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+.icon-footer-ul {
+    display: flex;
+    gap: 10px;
+    margin-top: 32px;
+}
+
 /* other */
+
+.contacts:hover .contact-icon,
+.contacts:focus .contact-icon {
+    fill: #2196F3;
+}
 
 .contacts:hover {
     color: #2196F3;
